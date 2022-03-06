@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.kt</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JacocoDemo</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">Main.kt</span></div><h1>Main.kt</h1><pre class="source lang-java linenums"><span class="fc" id="L1">class JacocoDemo {</span>
+    fun isEven(number: Int): Boolean {
+<span class="fc bfc" id="L3" title="All 2 branches covered.">        return if(number % 2 == 0){</span>
+<span class="fc" id="L4">            println(&quot;Number is even&quot;)</span>
+<span class="fc" id="L5">            true</span>
+        } else {
+<span class="fc" id="L7">            println(&quot;Number is odd&quot;)</span>
+<span class="fc" id="L8">            false</span>
+        }
+    }
+
+    fun printSomething() {
+<span class="nc" id="L13">        println(&quot;foo&quot;)</span>
+<span class="nc" id="L14">    }</span>
+}
+
+fun main() {
+<span class="nc" id="L18">    val jacocoDemo = JacocoDemo()</span>
+
+<span class="nc" id="L20">    println(jacocoDemo.isEven(89))</span>
+<span class="nc" id="L21">    println(jacocoDemo.printSomething())</span>
+<span class="nc" id="L22">}</span>
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
